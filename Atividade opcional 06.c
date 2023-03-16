@@ -17,13 +17,13 @@ int main(void){
 	printf("\nIMC: %f",num3);
 	
 	if(num3>18.5&&num<24.9){
-		printf("\nEst· no peso ideal.");
+		printf("\nEst√° no peso ideal.");
 	}
 	else if(num3<18){
-		printf("\nEst· abaixo do peso.");
+		printf("\nEst√° abaixo do peso.");
 	}
 	else if(num3>24.9){
-		printf("\nEst· acima do peso.");
+		printf("\nEst√° acima do peso.");
 	}
 	return 0;
 }
