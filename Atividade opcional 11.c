@@ -7,9 +7,9 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num,num2,num3;
 	
-	printf("Insira um número: ");
+	printf("Insira um nÃºmero: ");
 	scanf("%d",&num);
-	printf("Insira um número: ");
+	printf("Insira um nÃºmero: ");
 	scanf("%d",&num2);
 	num3=num+num2;
 	printf("%d+%d=%d",num,num2,num3);
@@ -18,7 +18,7 @@ int main(void){
 		printf("\nPar");
 	}
 	else{
-		printf("\nÍmpar");
+		printf("\nÃmpar");
 	}
 	return 0;
 }
