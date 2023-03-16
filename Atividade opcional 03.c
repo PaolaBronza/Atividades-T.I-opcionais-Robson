@@ -8,16 +8,16 @@ int main(void){
 	
 	printf("Insira a temperatura: ");
 	scanf("%d",&num);
-	printf("Temperatura inserida: %d°C",num);
+	printf("Temperatura inserida: %dÂ°C",num);
 	
 	if(num<0){
-		printf("\nA temperatura está abaixo de 0°C");
+		printf("\nA temperatura estÃ¡ abaixo de 0Â°C");
 	}
 	else if (num>0){
-		printf("\nA temperatura está acima de 0°C");
+		printf("\nA temperatura estÃ¡ acima de 0Â°C");
 	}
 	else if (num=0){
-		printf("\nA temperatura é 0°C");
+		printf("\nA temperatura Ã© 0Â°C");
 	}
 	return 0;
 }
