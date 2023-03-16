@@ -10,10 +10,10 @@ int main(void){
 	scanf("%d",&num);
 	
 	if(num>=18){
-		printf("Você já pode votar.");
+		printf("VocÃª jÃ¡ pode votar.");
 	}
 	else if(num<18){
-		printf("Infelizmente você ainda não pode votar.");
+		printf("Infelizmente vocÃª ainda nÃ£o pode votar.");
 	}
 	return 0;
 }
